@@ -1,0 +1,27 @@
+type: (world.blocks.production.GenericSmelter)
+name: Unholy Smelter
+description: "Smelts Coal with titanium and surge to produce a durable steel alloy."
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 60
+craftEffect: smeltsmoke
+consumes: {
+  power: 1.666
+  items: {
+    items: [
+      coal/666
+      surge-alloy/250
+      titanium/100
+    ]
+  }
+}
+requirements: [
+    copper/180
+    lead/120
+    graphite/100
+    surge-alloy/60
+    silicon/60
+]
+category: crafting
+outputItem: UnholyAlloy/1

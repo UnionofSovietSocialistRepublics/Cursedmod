@@ -1,0 +1,42 @@
+wwtype: flying
+name: "Unholy Shield"
+description: "FAT"
+speed: 0.8
+engineOffset: 46
+engineSize: 7.8
+health: 84000
+armor: 70
+itemCapacity: 666
+PayloadCapacity: 50²
+mineSpeed: 9
+buildSpeed: 9
+mineTier: 9
+range: 20
+commandLimit: 9
+flying: true
+hitSize: 60
+weapons:[
+{
+name: OctGun
+recoil: 3
+reload: 2.55
+shootSound: shootSnap
+rotate: true
+top: true
+rotateSpeed: 6
+shootY: 30
+y: -2
+x: 30
+bullet: {
+type: BasicBulletType
+sprite: flare-bullet
+damage: 1000
+knockback: 50
+status: unmoving
+statusDuration: 0.5
+speed: 5
+pierce: true
+pierceBuilding: true
+}
+}
+]

@@ -1,0 +1,40 @@
+type: ItemTurret
+name: Relic Fuse
+description: Old power inside the fuse is insane...
+targetAir: true
+targetGround: true
+hasPower: false
+hasLiquids: true 
+shootSound: fuse
+health: 7080
+size: 3
+inaccuracy: 0
+spread: 20
+reloadTime: 20
+shots: 4
+rotateSpeed: 30
+range: 100
+coolantMultiplier: 20
+ammoTypes: {
+	surge-alloy: {
+	  type: ShrapnelBulletType
+	  length: 140
+	  damage: 700
+	  ammoMultiplier: 2
+	  }
+	}
+requirements: [
+	surge-alloy/5000
+	silicon/5000
+	graphite/10000
+	thorium/5000
+	]
+category: turret
+research: fuse
+consumes: {
+  liquid: {
+    liquid: oil
+    amount: 0.125
+    optional: true
+    booster: true
+}}

@@ -1,0 +1,34 @@
+type: flying
+name:Relic Flare
+description: Old Flare used in wolrd war,somehow wake up after the war
+health: 10000
+hitsize: 3
+speed: 1
+drag: 0.01
+range: 80
+shootCone: 30
+flying: true
+rotateWeapon: true
+engineOffset: 5.5
+engineSize: 7.3
+rotatespeed: 0.01
+baseRotateSpeed: 0.04
+weapons: [{
+  name: RelicFlareGun
+  reload: 8
+  shots: 4
+  shootCone: 100
+  shake: 1
+  inaccuracy: 3
+  alternate: true
+  ejectEffect: none
+  bullet: {
+    type: BasicBulletType
+    speed: 10
+    damage: 760
+    bulletWidth: 15
+    bulletHeight: 21
+    shootEffect: shootBig
+  }
+  shootSound: shootbig
+}]

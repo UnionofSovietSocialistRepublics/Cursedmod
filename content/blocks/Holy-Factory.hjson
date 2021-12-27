@@ -1,0 +1,30 @@
+type: UnitFactory
+name: "Holy Factory"
+description: "Bring Holy Units To Your Base."
+health: 300
+size: 3
+plans:[
+ {
+ unit: Alphatumbra
+ time: 6000
+ requirements:[
+ titanium/1000
+ silicon/3500
+ surge-alloy/500
+ HolyAlloy/1500
+]
+ }
+
+]
+consumes: {
+power: 5.777
+}
+category: units
+research: air-factory
+researchCostMultiplier: 0
+requirements: [
+  silicon/70
+  copper/60
+  titanium/100
+  surge-alloy/300
+]

@@ -1,0 +1,33 @@
+name: Roomba
+type: mech
+itemCapacity: 10
+hitSize: 5
+speed: 1
+description: aw so cute~
+health: 1000
+drawCell: false
+itemCapacity: 10
+speed: 1
+range: 5
+mechSideSway: 0.25
+weapons: [{
+  name: clear
+  x: 0
+  y: 0
+  bullet: {
+    type: BombBulletType
+    damage: 100
+    ammoMultiplier: 1
+    killShooter: true
+    lifetime: 10
+    speed: 5
+    splashDamage: 150
+    splashDamageRadius: 60
+    hitEffect: pulverize
+    hittable: true
+    collidesAir: true
+    instantDisappear: true
+  }
+  shake: 5
+  shootSound: explosion
+}]

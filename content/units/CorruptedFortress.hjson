@@ -1,0 +1,36 @@
+type: mech
+name:Corrupted Fortress
+description: Poor poor poor Fortress get corrupted in spore...Now it will kill everything dare to touch it include air
+speed: 1
+drag: 0.4
+hitSize: 10
+targetAir: false
+health: 2250
+weapons: [{
+  name: goldArtillery
+  x: 9
+  y: 0
+  reload: 60
+  alternate: true
+  recoil: 4
+  shake: 2
+  ejectEffect: casing2
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 2
+    damage: 500
+    sprite: shell
+    hitEffect: blastExplosion
+    knockback: 0.8
+    lifetime: 110
+    width: 14
+    height: 14
+    collides: true
+    collidesTiles: true
+    splashDamageRadius: 35.666
+    splashDamage: 150
+    backColor: 301934
+    frontColor: 5ebac9
+  }
+  shootSound: artillery
+}]

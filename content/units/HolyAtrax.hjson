@@ -1,0 +1,109 @@
+type: legs
+name: Holy Atrax
+description: Commander of Holy Spooder,use light laser to kill enemy
+speed: 1
+drag: 0.4
+hitSize: 9
+rotateSpeed: 1
+targetAir: true
+health: 4800
+immunities: [
+burning, melting
+]
+weapons: [
+{
+  name: gSpiroct-weapon
+  reload: 9
+  x: 4
+  y: 8
+  rotate: true
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.83
+    length: 55
+    damage: 105
+    shootEffect: shootSmall
+    hitColor: f0e4a8
+    color: f0e4a8
+    despawnEffect: none
+    width: 0.55
+    lifetime: 30
+    knockback: -1
+  }
+}
+{
+  name: gSpiroct-weapon
+  x: 9
+  y: 6
+  rotate: true
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.83
+    length: 55
+    damage: 200
+    shootEffect: shootSmall
+    hitColor: f0e4a8
+    color: f0e4a8
+    despawnEffect: none
+    width: 0.55
+    lifetime: 30
+    knockback: -1
+  }
+}
+{
+  name: gSpiroct-weapon
+  x: 14
+  y: 0
+  rotate: true
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.83
+    length: 55
+    damage: 200
+    shootEffect: shootSmall
+    hitColor: f0e4a8
+    color: f0e4a8
+    despawnEffect: none
+    width: 0.55
+    lifetime: 30
+    knockback: -1
+  }
+}
+{
+  name: large-purple-mount-gold
+  x: -7
+  y: 9
+  shootY: 7
+  reload: 45
+  shake: 3
+  rotateSpeed: 2
+  ejectEffect: casing1
+  shootSound: shootBig
+  rotate: true
+  occlusion: 8
+  recoil: 3
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 2
+    damage: 500
+    hitEffect: sapExplosion
+    knockback: 0.8
+    lifetime: 70
+    width: 19
+    height: 19
+    collidesTiles: true
+    ammoMultiplier: 4
+    splashDamageRadius: 100
+    splashDamage: 195
+    backColor: ffffff
+    frontColor: f0e4a8
+    lightningColor: f0e4a8
+    lightning: 3
+    lightningLength: 15
+    smokeEffect: shootBigSmoke2
+    shake: 5
+    status: sapped
+    statusDuraion: 600
+  }
+}
+]

@@ -1,0 +1,36 @@
+type: ItemTurret
+name: Egg
+description: Eggs
+requirements: [
+copper/666
+graphite/300
+titanium/69
+silicon/100
+]
+health: 3555
+size: 3
+range: 150
+reloadTime: 30
+restitution: 0.03
+coolantMultiplier: 20
+ammoEjectBack: 3
+cooldown: 0.03
+shootShake: 2
+burstSpacing: 3
+shots: 4
+ammoUseEffect: casing4
+shootSound: shootBig
+ammoTypes: {
+copper: {
+lifetime: 60
+speed: 5
+ammoMultiplier: 2
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+damage: 355
+width: 9
+height: 12
+}}
+category: turret
+optional: true
+booster: true

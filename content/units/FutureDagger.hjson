@@ -1,0 +1,34 @@
+type: mech
+name:Future Dagger
+description:Return For The Revenge
+canBoost: true
+boostMultiplier: 2
+speed: 1
+hitSize: 8
+health: 7550
+buildSpeed: 0.8
+armor: 1
+weapons: [
+{
+  name: gHealWeapon
+  top: false
+  shootY: 2
+  reload: 24
+  x: 4
+  y: 2
+  alternate: false
+  ejectEffect: none
+  recoil: 2
+  bullet: {
+    type: LaserBoltBulletType
+    damage: 505
+    speed: 6
+    lifetime: 15
+    healPercent: 15
+    collidesTeam: true
+    backColor: 98ffa9
+    frontColor: f0e4a8
+  }
+  shootSound: pew
+}
+]
