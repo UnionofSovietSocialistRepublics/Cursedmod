@@ -1,3 +1,4 @@
+//holy hell why is this still here
 type: (world.blocks.production.GenericSmelter)
 name: Unholy Smelter
 description: "Smelts Coal with titanium and surge to produce a durable steel alloy."
